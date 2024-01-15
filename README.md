@@ -16,5 +16,5 @@ This website just for the info for the bot host in order to get a bot join our s
 
 👥 Connect with Us:
 
-- 🌐 Website: [Coming soon]
+- 🌐 Website: http://ggalaxyy.us.to/
 - 📱 Discord server: https://discord.gg/Y4zsbYEeSg
