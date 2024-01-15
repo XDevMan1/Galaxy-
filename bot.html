@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy | Bots</title>
+
+    <link rel="icon" href="images/logo2.jpeg" type="image/x-icon">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        header {
+            background: #2c3e50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+        }
+
+        nav {
+            background: #3498db;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            background: #2980b9;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .bot-card {
+            width: 30%;
+            background: rgba(52, 73, 94, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .bot-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #2c3e50;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+      .bot-types {
+            color: #000;
+            text-align: center;
+            margin-top: 20px;
+        }
+      
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="credit.html">Credit</a>
+        <a href="bots.html">Bots</a>
+        <a href="https://discord.gg/Y4zsbYEeSg">Discord</a>
+    </nav>
+
+  <div class="bot-types">
+        <h1>Types of bots we offer</h1>
+    </div>
+  
+    <main>
+        <div class="bot-card">
+            <img src="data:image/png;base64,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" alt="Moderation bot">
+            <h2>Moderation Bot</h2>
+            <p>Keep your server in check with our powerful moderation bot.</p>
+        </div>
+
+        <div class="bot-card">
+            <img src="https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg" alt="Entertainment bot">
+            <h2>Entertainment Bot</h2>
+            <p>Bring fun and excitement to your server with our entertaining bot.</p>
+        </div>
+
+        <div class="bot-card">
+            <img src="https://www.electronicshub.org/wp-content/uploads/2022/08/how-to-add-music-bot-to-discord-1.jpg" alt="Music bot">
+            <h2>Music Bot</h2>
+            <p>Enhance your server's atmosphere with our feature-rich music bot.</p>
+        </div>
+
+        <div class="bot-card">
+            <img src="https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg" alt="Trivia bot">
+            <h2>Trivia Bot</h2>
+            <p>Challenge your members with interesting trivia questions using our trivia bot.</p>
+        </div>
+
+        <div class="bot-card">
+            <img src="https://cdn.glitch.global/9c9dca97-de49-4d59-877f-1880b62d8a44/UT_Bot-Logo_1.2.png?v=1647689722683" alt="Utility bot">
+            <h2>Utility Bot</h2>
+            <p>Improve server management and efficiency with our versatile utility bot.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Galaxy. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
